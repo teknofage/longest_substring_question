@@ -20,6 +20,11 @@ even_list = [1,2,3,4,5,6,7,8]
 #         self.val = x
 #         self.next = None
 
+"""
+This solution has a time complexit of O(n) (fastest)
+and a space complexit of O(n) because it uses a second data structure which uses more space
+"""
+
 class Solution:
     def middleNode(self, head: ListNode) -> ListNode:
         node = head
@@ -33,3 +38,5 @@ class Solution:
             
         middle_node = new_list[middle_index]
         return middle_node
+    
+    
