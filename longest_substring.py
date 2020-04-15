@@ -1,5 +1,5 @@
 """
-example input: “abcdaxyz”
+example input 1: “abcdaxyz”
 list of possible substrings:
 "a"
 "ab"
@@ -11,7 +11,7 @@ list of possible substrings:
 "bcda"
 "bcdax"
 "bcdaxy"
-"bcdaxyz" <---
+"bcdaxyz" <--- Expected output: longest string, length of 7.
 "c"
 "cd"
 "cda"
@@ -38,6 +38,7 @@ list of possible substrings:
 
 
 first_letter = ""
+last_letter = ""
 
 def find_longest(my_string):
 	my_string = transfer into a list
@@ -56,3 +57,5 @@ def find_longest(my_string):
     if first_letter ==
 
     return longest_sub
+
+find_longest("abcdaxyz")
